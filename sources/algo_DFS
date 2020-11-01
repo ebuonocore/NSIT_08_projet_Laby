@@ -1,4 +1,6 @@
 Algorithme du parcours en profodeur: DFS (Depth First Search)
+Parcourt le graphe G à partir du sommet 'sommet'.
+Renvoie le chemin (liste des sommets) explorés depuis le somemt initial selonn le parcours en profondeur.
 
 Fonction parcours_profondeur(G,sommet)
   | sommets_visites ← []
