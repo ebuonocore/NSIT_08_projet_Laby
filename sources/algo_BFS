@@ -1,9 +1,9 @@
 Algorithme du parcours en largeur: BFS (Breadth First Search)
 
 Fonction parcours_largeur(G,sommet)
-  | sommet_visite←[]
-  | f←File()
-  | f←sommet
+  | sommet_visite ← []
+  | f ← File()
+  | f ← sommet
   | Tant que f n’est pas vide faire
   |   | on défile f dans tmp
   |   | on affiche tmp
