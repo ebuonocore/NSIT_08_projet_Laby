@@ -1,4 +1,6 @@
 Algorithme du parcours en largeur: BFS (Breadth First Search)
+Parcourt le graphe G à partir du sommet 'sommet'.
+Renvoie le chemin (liste des sommets) explorés depuis le somemt initial selonn le parcours en largeur.
 
 Fonction parcours_largeur(G,sommet)
   | sommet_visite ← []
