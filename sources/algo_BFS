@@ -1,0 +1,16 @@
+Algorithme du parcours en largeur: BFS (Breadth First Search)
+
+Fonction parcours_largeur(G,sommet)
+  | sommet_visite←[]
+  | f←File()
+  | f←sommet
+  | Tant que f n’est pas vide faire
+  |   | on défile f dans tmp
+  |   | on affiche tmp
+  |   | Si tmp n’est pas dans sommet_visite alors
+  |   |   | l’ajouter à sommet_visite
+  |   | Pour chaque voisin de tmp faire
+  |   |   | Si il n’est pas dans sommet_visite et pas dans la file alors
+  |   |   |   | l’enfiler 
+  | fin tant que
+  | renvoyer sommet_visite
