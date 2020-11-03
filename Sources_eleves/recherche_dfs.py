@@ -15,7 +15,7 @@ def chercher_dfs(laby:nx.Graph, source:int = None, destination:int = None)->list
     nodes = list(laby.nodes())
     # Si source n'est pas renseigné, alors on impose source = 0
     if source == None:
-        source = nodes[1]
+        source = nodes[0]
     # Si destination n'est pas renseigné, alors on impose destination = dernier sommet
     if destination == None:   
         destination = nodes[-1]
