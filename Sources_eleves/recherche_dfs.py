@@ -3,7 +3,6 @@
 
 #importation des bibliothèques
 import networkx as nx
-from affichage_laby_correction import *
 from File import *
 
 def chercher_dfs(laby:nx.Graph, source:int = None, destination:int = None)->list:
@@ -20,9 +19,7 @@ def chercher_dfs(laby:nx.Graph, source:int = None, destination:int = None)->list
     if destination == None:   
         destination = nodes[-1]
     
-    
-        
-        
+ 
     return nx.shortest_path(laby, source, destination)
 
 if __name__ == "__main__":
