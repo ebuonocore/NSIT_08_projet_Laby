@@ -5,18 +5,18 @@ Renvoie le chemin (liste des sommets) explorés depuis le somemt initial selonn 
 Fonction parcours_profondeur(G,sommet)
   | sommets_visites ← []
   | sommets_fermes ← []
-  | p ← Pile()
-  | sommets_visites ← sommet
-  | on empile le sommet dans p
+  | instancie la Pile p
+  | ajoute sommet à sommets_visites
+  | empile le sommet dans p
   | Tant que p n’est pas vide faire
-  |   | tmp ← le sommet de la pile
+  |   | dépiler p dans tmp
   |   | voisins ← la liste des voisins de tmp non déjà visités
   |   | Si voisins n’est pas vide alors
   |   |   | v ← un des voisin
   |   |   | sommets_visités ← v
-  |   |   | on empile v
+  |   |   | empile v
   |   | Sinon
   |   |   | sommets_fermés ← tmp
-  |   |   | on dépile p
+  |   |   | dépile p
   | fin tant que
   | renvoyer sommet_fermes
