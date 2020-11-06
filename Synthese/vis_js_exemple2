@@ -1,11 +1,13 @@
+# http://www.http://viz-js.com/
+
 graph G {
 
-	A -- B [label="2",color=blue]
-	A -- C [label="4",color=blue]
-	D -- B [label="5",color=blue]
-	C -- D [label="6",color=blue]
-	B -- C [label="2",color=blue]
-	E -- F [label="1",color=blue]
-	F -- G [label="7",color=blue]
+	A -- B [color=blue]
+	A -- C [color=blue]
+	D -- B [color=blue]
+	C -- D [color=blue]
+	B -- C [color=blue]
+	E -- F [color=blue]
+	F -- G [color=blue]
 
 }
