@@ -1,0 +1,11 @@
+graph G {
+
+	A -- B [label="2",color=blue]
+	A -- C [label="4",color=blue]
+	D -- B [label="5",color=blue]
+	C -- D [label="6",color=blue]
+	B -- C [label="2",color=blue]
+	E -- F [label="1",color=blue]
+	F -- G [label="7",color=blue]
+
+}
