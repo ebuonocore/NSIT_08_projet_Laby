@@ -9,7 +9,7 @@ Fonction parcours_profondeur(G,sommet)
   | ajoute sommet à sommets_visites
   | empile le sommet dans p
   | Tant que p n’est pas vide faire
-  |   | dépiler p dans tmp
+  |   | tmp  ← sommet de p
   |   | voisins ← la liste des voisins de tmp non déjà visités
   |   | Si voisins n’est pas vide alors
   |   |   | v ← un des voisin
