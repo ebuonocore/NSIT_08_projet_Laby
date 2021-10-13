@@ -1,0 +1,11 @@
+NSIT_08b_affichage_laby.ipynb	
+https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/db66-111415
+
+NSIT_08c_creation_laby.ipynb	
+https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/4c4d-111428
+
+NSIT_08d_recherche_bfs.ipynb	
+https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/85c8-111431
+
+NSIT_08e_recherche_dfs.ipynb	
+https://capytale2.ac-paris.fr/web/c-auth/list?returnto=/web/code/7249-111433
