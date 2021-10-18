@@ -19,4 +19,4 @@ Fonction parcours_profondeur(G,sommet)
   |   |   | sommets_fermés ← tmp
   |   |   | dépile p
   | fin tant que
-  | renvoyer sommet_fermes
+  | renvoyer sommets_fermes
